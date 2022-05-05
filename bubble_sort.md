@@ -24,17 +24,21 @@ A = [40, 10, 50, 90, 20, 80, 30, 60]
 
 위 수도코드를 이 배열에 대해 버블 정렬이 수행되는 과정은 다음과 같다.
 
-- **[pass 1]**
-  ![https://user-images.githubusercontent.com/63987872/166850739-a8b37989-2b98-4e69-ac46-3d751ae1da52.png](https://user-images.githubusercontent.com/63987872/166850739-a8b37989-2b98-4e69-ac46-3d751ae1da52.png)
-  최종적으로 pass 1에서 즉, 첫 번째 시도에서 첫 번째로 큰 수가 맨 마지막에 가는 것을 확인할 수 있다.
-- **[pass 2]**
-  ![https://user-images.githubusercontent.com/63987872/166850743-4ce0e05c-328d-471e-b7b1-cae0027a9d91.png](https://user-images.githubusercontent.com/63987872/166850743-4ce0e05c-328d-471e-b7b1-cae0027a9d91.png)
-- **[pass 3]**
-  ![https://user-images.githubusercontent.com/63987872/166850744-ca4a70d6-74d4-410f-b972-5876ed3f77ea.png](https://user-images.githubusercontent.com/63987872/166850744-ca4a70d6-74d4-410f-b972-5876ed3f77ea.png)
-- **[pass 4]**
-  ![https://user-images.githubusercontent.com/63987872/166850745-6e5b7e7b-ee51-40c1-817f-7b6f30413f81.png](https://user-images.githubusercontent.com/63987872/166850745-6e5b7e7b-ee51-40c1-817f-7b6f30413f81.png)
-- **[pass 5]** ~ **[pass 7]**
-  pass 4의 결과와 동일하다.
+**[pass 1]**
+![https://user-images.githubusercontent.com/63987872/166850739-a8b37989-2b98-4e69-ac46-3d751ae1da52.png](https://user-images.githubusercontent.com/63987872/166850739-a8b37989-2b98-4e69-ac46-3d751ae1da52.png)
+최종적으로 pass 1에서 즉, 첫 번째 시도에서 첫 번째로 큰 수가 맨 마지막에 가는 것을 확인할 수 있다.
+
+**[pass 2]**
+![https://user-images.githubusercontent.com/63987872/166850743-4ce0e05c-328d-471e-b7b1-cae0027a9d91.png](https://user-images.githubusercontent.com/63987872/166850743-4ce0e05c-328d-471e-b7b1-cae0027a9d91.png)
+
+**[pass 3]**
+![https://user-images.githubusercontent.com/63987872/166850744-ca4a70d6-74d4-410f-b972-5876ed3f77ea.png](https://user-images.githubusercontent.com/63987872/166850744-ca4a70d6-74d4-410f-b972-5876ed3f77ea.png)
+
+**[pass 4]**
+![https://user-images.githubusercontent.com/63987872/166850745-6e5b7e7b-ee51-40c1-817f-7b6f30413f81.png](https://user-images.githubusercontent.com/63987872/166850745-6e5b7e7b-ee51-40c1-817f-7b6f30413f81.png)
+
+**[pass 5]** ~ **[pass 7]**
+pass 4의 결과와 동일하다.
 
 pass가 진행함에 따라 가장 큰 수가 뒤로 가면서 정렬되는 것을 알 수 있다. 또한 pass는 len(A)-1번 진행된다.
 
