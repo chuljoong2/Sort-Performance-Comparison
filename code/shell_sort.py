@@ -1,5 +1,13 @@
-def shell_sort(A, gap):
+def shell_sort(A):
     n = len(A)
+    m = n // 3 + 1
+    gap = []
+    while True:
+        gap.append(m)
+        if m == 1:
+            break
+        m = m // 3 + 1
+
     for h in gap:
         for i in range(h, n):
             CurrentElement = A[i]
@@ -8,18 +16,8 @@ def shell_sort(A, gap):
                 A[j] = A[j - h]
                 j -= h
             A[j] = CurrentElement
-    return A
 
 
-A = [30, 60, 90, 10, 40, 80, 40, 20, 10, 60, 50, 30, 40, 90, 80]
-n = len(A) // 3 + 1
-gap = []
-
-while True:
-    gap.append(n)
-    if n == 1:
-        break
-    n = n // 3 + 1
-
-shell_sort(A, gap)
+A = [5, 8, 3, 1, 2, 7, 6, 4]
+shell_sort(A)
 print(A)
