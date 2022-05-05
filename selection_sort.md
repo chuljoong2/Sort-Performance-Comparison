@@ -4,7 +4,7 @@
 
 ## 선택 **정렬** 알고리즘
 
-```python
+```
 def selection_sort(A):
 	# 입력: 배열 A
 	# 출력: 정렬된 배열 A
