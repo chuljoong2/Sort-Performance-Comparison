@@ -7,6 +7,7 @@
 정렬 알고리즘은 굉장히 다양한데 이 중에서 많이 사용하는 **선택, 삽입, 퀵 정렬**과 그 외 추가로 **버블, 쉘, 힙 정렬**에 대해서만 알아보려 한다.
 
 또한 아래 주소를 통해 README.md와 같은 내용이지만 편하게 보실 수 있습니다.
+
 [정리](https://marred-starburst-a3c.notion.site/6-5879fb6dfc9f4b8280ac152ef91db555)
 
 ## 설명
@@ -47,18 +48,29 @@ print(f"{end - start:.5f} sec")
 
 ### 정렬된 데이터
 
-- 퀵 정렬 (오류)
-  ![https://user-images.githubusercontent.com/63987872/166864171-5b35fc74-51d7-4b7f-9e0e-9c7bd13eb7a5.png](https://user-images.githubusercontent.com/63987872/166864171-5b35fc74-51d7-4b7f-9e0e-9c7bd13eb7a5.png)
-- 버블 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864168-69d74976-f604-4939-bde1-9697070b4fa3.jpg](https://user-images.githubusercontent.com/63987872/166864168-69d74976-f604-4939-bde1-9697070b4fa3.jpg)
-- 선택 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864178-b2d82327-4a3a-4cf7-bae3-1bf930c5bfea.png](https://user-images.githubusercontent.com/63987872/166864178-b2d82327-4a3a-4cf7-bae3-1bf930c5bfea.png)
-- 삽입 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864182-9e75509d-95b9-4f92-a24d-4a1ecc4b3fa5.png](https://user-images.githubusercontent.com/63987872/166864182-9e75509d-95b9-4f92-a24d-4a1ecc4b3fa5.png)
-- 쉘 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864185-18273f1c-11bd-40e0-bc1e-a9aa19a20552.png](https://user-images.githubusercontent.com/63987872/166864185-18273f1c-11bd-40e0-bc1e-a9aa19a20552.png)
-- 힙 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864189-e1f7ad92-a808-41d6-9def-9b4e68fc96fa.png](https://user-images.githubusercontent.com/63987872/166864189-e1f7ad92-a808-41d6-9def-9b4e68fc96fa.png)
+퀵 정렬 (오류)
+
+![https://user-images.githubusercontent.com/63987872/166864171-5b35fc74-51d7-4b7f-9e0e-9c7bd13eb7a5.png](https://user-images.githubusercontent.com/63987872/166864171-5b35fc74-51d7-4b7f-9e0e-9c7bd13eb7a5.png)
+
+버블 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864168-69d74976-f604-4939-bde1-9697070b4fa3.jpg](https://user-images.githubusercontent.com/63987872/166864168-69d74976-f604-4939-bde1-9697070b4fa3.jpg)
+
+선택 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864178-b2d82327-4a3a-4cf7-bae3-1bf930c5bfea.png](https://user-images.githubusercontent.com/63987872/166864178-b2d82327-4a3a-4cf7-bae3-1bf930c5bfea.png)
+
+삽입 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864182-9e75509d-95b9-4f92-a24d-4a1ecc4b3fa5.png](https://user-images.githubusercontent.com/63987872/166864182-9e75509d-95b9-4f92-a24d-4a1ecc4b3fa5.png)
+
+쉘 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864185-18273f1c-11bd-40e0-bc1e-a9aa19a20552.png](https://user-images.githubusercontent.com/63987872/166864185-18273f1c-11bd-40e0-bc1e-a9aa19a20552.png)
+
+힙 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864189-e1f7ad92-a808-41d6-9def-9b4e68fc96fa.png](https://user-images.githubusercontent.com/63987872/166864189-e1f7ad92-a808-41d6-9def-9b4e68fc96fa.png)
 
 |           | 2^5     | 2^6     | 2^7     | 2^8     | 2^9     | 2^10     | 2^11     | 2^12     |
 | --------- | ------- | ------- | ------- | ------- | ------- | -------- | -------- | -------- |
@@ -80,18 +92,29 @@ print(f"{end - start:.5f} sec")
 
 ### 역정렬된 데이터
 
-- 퀵 정렬 (오류)
-  ![https://user-images.githubusercontent.com/63987872/166864384-357f53a3-8f75-4bc5-b450-2178ca17248c.png](https://user-images.githubusercontent.com/63987872/166864384-357f53a3-8f75-4bc5-b450-2178ca17248c.png)
-- 버블 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864387-6e8bc02a-0405-4dfc-9679-28f81ad45240.png](https://user-images.githubusercontent.com/63987872/166864387-6e8bc02a-0405-4dfc-9679-28f81ad45240.png)
-- 선택 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864391-123f20a8-5fdb-4524-af93-c907249051e4.png](https://user-images.githubusercontent.com/63987872/166864391-123f20a8-5fdb-4524-af93-c907249051e4.png)
-- 삽입 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864389-83886611-0b1f-42ea-9e0b-66fa665db095.png](https://user-images.githubusercontent.com/63987872/166864389-83886611-0b1f-42ea-9e0b-66fa665db095.png)
-- 쉘 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864380-7aa03074-b842-4d7c-9780-239658f751e7.png](https://user-images.githubusercontent.com/63987872/166864380-7aa03074-b842-4d7c-9780-239658f751e7.png)
-- 힙 정렬
-  ![https://user-images.githubusercontent.com/63987872/166864386-35864317-b605-41a0-8d6f-7725ef413137.png](https://user-images.githubusercontent.com/63987872/166864386-35864317-b605-41a0-8d6f-7725ef413137.png)
+퀵 정렬 (오류)
+
+![https://user-images.githubusercontent.com/63987872/166864384-357f53a3-8f75-4bc5-b450-2178ca17248c.png](https://user-images.githubusercontent.com/63987872/166864384-357f53a3-8f75-4bc5-b450-2178ca17248c.png)
+
+버블 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864387-6e8bc02a-0405-4dfc-9679-28f81ad45240.png](https://user-images.githubusercontent.com/63987872/166864387-6e8bc02a-0405-4dfc-9679-28f81ad45240.png)
+
+선택 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864391-123f20a8-5fdb-4524-af93-c907249051e4.png](https://user-images.githubusercontent.com/63987872/166864391-123f20a8-5fdb-4524-af93-c907249051e4.png)
+
+삽입 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864389-83886611-0b1f-42ea-9e0b-66fa665db095.png](https://user-images.githubusercontent.com/63987872/166864389-83886611-0b1f-42ea-9e0b-66fa665db095.png)
+
+쉘 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864380-7aa03074-b842-4d7c-9780-239658f751e7.png](https://user-images.githubusercontent.com/63987872/166864380-7aa03074-b842-4d7c-9780-239658f751e7.png)
+
+힙 정렬
+
+![https://user-images.githubusercontent.com/63987872/166864386-35864317-b605-41a0-8d6f-7725ef413137.png](https://user-images.githubusercontent.com/63987872/166864386-35864317-b605-41a0-8d6f-7725ef413137.png)
 
 |           | 2^5     | 2^6     | 2^7     | 2^8     | 2^9     | 2^10     | 2^11     | 2^12     |
 | --------- | ------- | ------- | ------- | ------- | ------- | -------- | -------- | -------- |
@@ -113,18 +136,29 @@ print(f"{end - start:.5f} sec")
 
 ### 랜덤 데이터
 
-- 퀵 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868628-8e5069bc-dd9e-404a-8a59-d9d9670278a3.png](https://user-images.githubusercontent.com/63987872/166868628-8e5069bc-dd9e-404a-8a59-d9d9670278a3.png)
-- 버블 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868618-1592cb6d-9677-42e8-9d9a-b65591e4c7e9.png](https://user-images.githubusercontent.com/63987872/166868618-1592cb6d-9677-42e8-9d9a-b65591e4c7e9.png)
-- 선택 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868623-0dd9dbaa-4c89-4e19-bf00-47f3fcab8560.png](https://user-images.githubusercontent.com/63987872/166868623-0dd9dbaa-4c89-4e19-bf00-47f3fcab8560.png)
-- 삽입 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868622-c903e880-5662-42d7-b6bb-0eb9e4c4e38f.png](https://user-images.githubusercontent.com/63987872/166868622-c903e880-5662-42d7-b6bb-0eb9e4c4e38f.png)
-- 쉘 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868627-8626b15b-b35f-4d4f-a5eb-530847d3278f.png](https://user-images.githubusercontent.com/63987872/166868627-8626b15b-b35f-4d4f-a5eb-530847d3278f.png)
-- 힙 정렬
-  ![https://user-images.githubusercontent.com/63987872/166868630-ddb42e4d-44bc-43a5-b632-def40cd36822.png](https://user-images.githubusercontent.com/63987872/166868630-ddb42e4d-44bc-43a5-b632-def40cd36822.png)
+퀵 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868628-8e5069bc-dd9e-404a-8a59-d9d9670278a3.png](https://user-images.githubusercontent.com/63987872/166868628-8e5069bc-dd9e-404a-8a59-d9d9670278a3.png)
+
+버블 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868618-1592cb6d-9677-42e8-9d9a-b65591e4c7e9.png](https://user-images.githubusercontent.com/63987872/166868618-1592cb6d-9677-42e8-9d9a-b65591e4c7e9.png)
+
+선택 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868623-0dd9dbaa-4c89-4e19-bf00-47f3fcab8560.png](https://user-images.githubusercontent.com/63987872/166868623-0dd9dbaa-4c89-4e19-bf00-47f3fcab8560.png)
+
+삽입 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868622-c903e880-5662-42d7-b6bb-0eb9e4c4e38f.png](https://user-images.githubusercontent.com/63987872/166868622-c903e880-5662-42d7-b6bb-0eb9e4c4e38f.png)
+
+쉘 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868627-8626b15b-b35f-4d4f-a5eb-530847d3278f.png](https://user-images.githubusercontent.com/63987872/166868627-8626b15b-b35f-4d4f-a5eb-530847d3278f.png)
+
+힙 정렬
+
+![https://user-images.githubusercontent.com/63987872/166868630-ddb42e4d-44bc-43a5-b632-def40cd36822.png](https://user-images.githubusercontent.com/63987872/166868630-ddb42e4d-44bc-43a5-b632-def40cd36822.png)
 
 |           | 2^5     | 2^6     | 2^7     | 2^8     | 2^9     | 2^10    | 2^11    | 2^12     |
 | --------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------- |
