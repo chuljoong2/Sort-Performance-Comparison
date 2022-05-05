@@ -60,13 +60,16 @@ i = 10, 11, 12, 13, 14일 때,
 ![https://user-images.githubusercontent.com/63987872/166850765-1aa7fa5d-fbba-42a6-a0dd-4148a3e383f2.png](https://user-images.githubusercontent.com/63987872/166850765-1aa7fa5d-fbba-42a6-a0dd-4148a3e383f2.png)
 
 각 그룹내에서 정렬된 결과를 1줄로 나열하면 다음과 같다.
+
 [30, 30, 20, 10, 40, 50, 40, 40, 10, 60, 80, 60, 90, 90, 80]
 
 **[gap = 3]**
 3개의 그룹으로 나누어지고 각 그룹의 원소의 개수는 5개다.
+
 ![https://user-images.githubusercontent.com/63987872/166850763-59e6a913-1651-49a9-89bb-f371d0d28381.png](https://user-images.githubusercontent.com/63987872/166850763-59e6a913-1651-49a9-89bb-f371d0d28381.png)
 
 각 그룹내에서 정렬된 결과를 1줄로 나열하면 다음과 같다.
+
 [10, 30, 10, 30, 40 , 20, 40, 40, 50, 60, 80, 60, 90, 90, 80]
 
 **[gap = 1]**
